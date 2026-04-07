@@ -1,17 +1,15 @@
 programa {
   funcao inicio() {
-    real imposto, valorImpo, custoFabrica, percentualDist, precoFinal
+    real valorImpo, custoFabrica, precoFinal
+    const real imposto = 0.45
+    const real distribuidor = 0.28
 
     escreva ("Informe o preço de fábrica do veículo: R$")
     leia (custoFabrica)
 
-    imposto =  0.45
-
     valorImpo = custoFabrica + ( custoFabrica * imposto)
 
-    percentualDist = 0.28
-
-    precoFinal = valorImpo + (valorImpo * percentualDist)
+    precoFinal = valorImpo + (valorImpo * distribuidor)
 
     escreva ("O valor final do veículo é: R$",precoFinal)
 
