@@ -11,7 +11,7 @@ programa {
     se (a == b){
     c = a + b
     escreva (c)}
-    senao se ( a != b ){
+    senao {
     c = a * b
     escreva (c)}
   }
