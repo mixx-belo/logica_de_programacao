@@ -6,7 +6,7 @@ programa {
     escreva ("Informe o salário: R$")
     leia (salario)
 
-    se (salario >= salarioAlto){
+    se (salario > salarioAlto){
       escreva ("Salário acima da média")
     } senao {
       escreva ("Salário abaixo da média")
