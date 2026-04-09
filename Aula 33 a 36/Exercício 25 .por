@@ -11,5 +11,6 @@ programa {
       escreva ("número é o próprio zero")
     } senao se (numero < 0){
 escreva ("numero negativo")
+}
   }
 }
