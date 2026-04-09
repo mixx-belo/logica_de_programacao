@@ -7,8 +7,9 @@ programa {
 
     se (numero > 0 ){
       escreva ("número positivo")
+    } senao se (numero == 0){
+      escreva ("número é o próprio zero")
     } senao se (numero < 0){
-      escreva ("número negativo")
-    }
+escreva ("numero negativo")
   }
 }
