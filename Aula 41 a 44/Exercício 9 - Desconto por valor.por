@@ -21,4 +21,5 @@ programa
 }
 
 // erro de usabilidade: o algoritmo não pedia para informar o valor da variável
-// o cálculo do total da compra estava incorreto, da forma antiga, o total resultaria em 10% da compra
+// o sinal que estava sendo usado indicava que se a compra fosse menor que 100 ganharia desconto
+// o cálculo da porcentagem estava incorreto
