@@ -5,7 +5,7 @@ programa {
     para (i = 1; i <= 15; i++)
     {
       soma = soma + i
-      escreva (soma, "\n")
     }
+    escreva (soma)
   }
 }
