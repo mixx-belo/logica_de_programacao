@@ -3,7 +3,6 @@ programa {
     real media, nota, soma = 0
     inteiro contador = 0
 
-    
     faca {
       escreva ("Informe a nota: ")
       leia (nota)
@@ -12,7 +11,6 @@ programa {
       soma = soma + nota
       contador++
       }
-    
     } enquanto (nota >= 0)
       
     media = soma / contador
