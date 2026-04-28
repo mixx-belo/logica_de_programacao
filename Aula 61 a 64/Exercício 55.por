@@ -1,8 +1,11 @@
 programa {
   funcao inicio() {
-    inteiro idade = 1
+    inteiro idade 
 
-    enquanto ( idade > 0){
+    escreva ("informe a idade: ")
+    leia (idade)
+    
+    enquanto ( idade >= 1){
       escreva ("informe a idade: ")
       leia (idade)
   }
