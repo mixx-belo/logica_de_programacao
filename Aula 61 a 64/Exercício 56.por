@@ -1,23 +1,20 @@
 programa {
   funcao inicio() {
-    real media, numero = 1, soma = 0
-    inteiro contador 
+    real media, numero = 0, soma = 0
+    inteiro contador = 0
 
     escreva ("digite o número: ")
     leia (numero)
 
-    enquanto (numero > 0){
+    enquanto (numero >= 0){
       escreva ("digite o número: ")
       leia (numero)
 
-      contador++
-
+      se (numero >= 0) {
       soma = numero + soma
+      contador++
+      }
     }
-
-    soma = soma - numero
-
-    contador--
 
     media = soma / contador
 
