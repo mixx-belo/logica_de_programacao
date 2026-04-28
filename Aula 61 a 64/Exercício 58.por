@@ -3,11 +3,10 @@ programa {
     inteiro numero
 
     numero = 0
-
-    enquanto (numero <= 9)
-    {
+    faca {
       numero++
       escreva (numero, "\n")
-    }
+    } enquanto (numero <= 9)
+    
   }
 }
