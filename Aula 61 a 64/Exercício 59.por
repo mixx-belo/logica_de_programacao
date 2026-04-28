@@ -4,10 +4,9 @@ programa {
 
     numero = 10
 
-    enquanto (numero >= 1)
-    {
+    faca {
       escreva (numero, "\n")
       numero--
-    }
+    } enquanto (numero >= 1)
   }
 }
