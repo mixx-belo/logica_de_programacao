@@ -1,7 +1,7 @@
 programa {
   funcao real calcularMedia (real nota1, real nota2) {
-    real resultado = (nota1 + nota2) / 2
-    retorne resultado
+    real media = (nota1 + nota2) / 2
+    retorne media
   }
   funcao inicio() {
     real n1, n2 
