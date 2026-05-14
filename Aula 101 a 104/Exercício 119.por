@@ -13,6 +13,6 @@ programa {
       }
       
     }
-    escreva ("O menor valor é ",menor," e está na posição: ",posicao)
+    escreva ("O menor valor é ",menor," e está no índice: ",posicao)
   }
 }
