@@ -21,17 +21,14 @@ programa {
     para (inteiro i = 0; i < equipe; i++){
       escreva ( i + 1, "ª equipe:\n")
       escreva ("Total de pontos: ", totalEquipe[i], "\n\n")
-    }
 
-    para (inteiro i = 0; i < equipe; i++){
       se (totalEquipe[i] > maior){
         maior = totalEquipe[i]
         numeroEquipe = i
       } 
-      } 
+    }
 
       escreva ("\nNúmero da equipe vencedora: ", numeroEquipe + 1)
       escreva ("\n\nPontuação da equipe vencedora: ", maior)
-
       }
     }
