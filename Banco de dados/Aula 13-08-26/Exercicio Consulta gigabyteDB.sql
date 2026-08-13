@@ -6,7 +6,7 @@ CREATE TABLE produtos (
 	sku VARCHAR (20) PRIMARY KEY,
     nome_produto VARCHAR (100) NOT NULL,
     categoria VARCHAR (50),
-    preco DECIMAL (10,2) NOT NULL,
+    preco DECIMAL (10,2) NOT NULL CHECK (preco > 0),
     quantidade_estoque INT NOT NULL DEFAULT 0
 );
 
