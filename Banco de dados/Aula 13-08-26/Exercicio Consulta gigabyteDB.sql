@@ -17,7 +17,7 @@ SELECT * FROM produtos WHERE categoria LIKE 'Hardware' and quantidade_estoque > 
 SELECT sku, nome_produto FROM produtos WHERE quantidade_estoque = 0;
 
 #RELATORIO 3
-SELECT nome_produto, preco FROM produtos ORDER BY preco DESC LIMIT 3;
+SELECT nome_produto, preco FROM produtos ORDER BY preco DESC LIMIT 2;
 
 #RELATORIO 4
 SELECT * FROM produtos WHERE nome_produto LIKE '%placa%';
